@@ -48,6 +48,7 @@ function setup() {
 
 function draw() {
   currentTime=hour();
+  console.log(lastFed)
   if(currentTime==(lastFed+1)){
       update("Playing");
       foodObj.garden();
